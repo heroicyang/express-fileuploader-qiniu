@@ -1,0 +1,53 @@
+{
+  "name": "express-fileuploader-qiniu",
+  "version": "0.0.1",
+  "description": "QiniuStrategy for express-fileuploader, use this to upload files to Qiniu.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heroicyang/express-fileuploader-qiniu.git"
+  },
+  "scripts": {
+    "test": "make test-all"
+  },
+  "dependencies": {
+    "express-fileuploader": "~0.0.2",
+    "qn": "~0.2.0"
+  },
+  "devDependencies": {
+    "express": "~3.4.4",
+    "connect-multiparty": "~1.0.1",
+    "mocha": "~1.16.2",
+    "should": "2.0.2",
+    "blanket": "~1.1.6",
+    "travis-cov": "~0.2.4",
+    "mocha-lcov-reporter": "~0.0.1",
+    "coveralls": "~2.6.1",
+    "supertest": "~0.8.2"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        "express-fileuploader-qiniu/lib"
+      ]
+    },
+    "travis-cov": {
+      "threshold": 80
+    }
+  },
+  "keywords": [
+    "upload",
+    "uploader",
+    "express",
+    "express-upload",
+    "express-uploader",
+    "express-fileuploader",
+    "qiniu"
+  ],
+  "author": {
+    "name": "Heroic Yang",
+    "email": "me@heroicyang.com",
+    "url": "http://heroicyang.com/"
+  },
+  "license": "MIT"
+}
