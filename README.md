@@ -1,7 +1,9 @@
 express-fileuploader-qiniu
 ===================
 
-QiniuStrategy for [express-fileuploader](https://github.com/heroicyang/express-fileuploader), use this to upload files to Qiniu.
+[![Build Status](https://travis-ci.org/heroicyang/express-fileuploader-qiniu.png)](https://travis-ci.org/heroicyang/express-fileuploader-qiniu]) [![Coverage Status](https://coveralls.io/repos/heroicyang/express-fileuploader-qiniu/badge.png)](https://coveralls.io/r/heroicyang/express-fileuploader-qiniu)  [![Dependency Status](https://gemnasium.com/heroicyang/express-fileuploader-qiniu.png)](https://gemnasium.com/heroicyang/express-fileuploader-qiniu)
+
+`QiniuStrategy` for [express-fileuploader](https://github.com/heroicyang/express-fileuploader), use this strategy to upload files to [Qiniu](http://www.qiniu.com/).
 
 ## Install
 
